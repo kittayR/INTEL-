@@ -70,16 +70,27 @@ Feature extraction is the process of transforming raw data into a set of feature
 
 # IMPLEMENTATION
 TOOLS AND LIBRARIES
+
 •	Pandas
+
 •	NumPy
+
 •	Scikit-Learn
+
 •	TensorFlow/Keras
+
 •	NLTK (Natural Language Toolkit)
+
 •	Gensim
+
 •	Matplotlib
+
 •	Seaborn
+
 •	WordCloud
+
 •	VADER (Valence Aware Dictionary and sEntiment Reasoner)
+
 •	Transformers (Hugging Face)
 
 # MODEL TRAINING 
