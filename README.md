@@ -1,5 +1,23 @@
 # INTEL Products Sentiment Analysis from Online Reviews 
 PS-11 Intel Products Sentiment Analysis from Online Reviews
+
+# PROBLEM STATEMENT
+Customer feedback and Reviews plays a crucial role in the continuous improvement of products and services. Companies often receive vast amounts of textual reviews from end users and tech reviewers on various platforms, making it challenging to manually analyse and derive actionable insights from this data.
+
+Our project aims to address this issue by developing an automated sentiment analysis system that can process customer reviews, detect trends over time, and provide recommendations for INTEL Products (MOBILE/DESKTOP PROCESSOR) using a chatbot
+
+# SCOPE OF THE PROJECT
+The project aims to analyze customer sentiment towards : 
+12th generation ( mobile / desktop processor )
+13th generation ( mobile / desktop processor )
+14th generation ( mobile / desktop processor )
+The user end reviews were taken from the AMAZON WEBSITE (https://www.amazon.in) around the time frames of 2022 to 2024.
+The tech reviews were taken from 3 websites :
+PC MAG : https://www.pcmag.com/categories/processors/brands/intel
+AnandTech : https://www.anandtech.com/show/18740/the-intel-core-i3-13100f-review-finding-value-in-intels-cheapest-chip
+Trusted Reviews : https://www.trustedreviews.com/best/best-intel-processor-3517396
+
+
 # DATA SOURCE 
 End user reviews : AMAZON (online platform)
 Websites like Amazon offer INTEL product reviews from customers which we used for sentiment analysis. 
@@ -95,6 +113,12 @@ Features of the Chatbot:
 5.	Recommendations: Based on user queries and data trends, the chatbot can suggest the recommendations to improve the performance of the processor.
 
 ![image](https://github.com/user-attachments/assets/20ed72f8-aa1c-459f-8b74-8d3b7749aba7)
+![image](https://github.com/user-attachments/assets/6a3266bb-4c6d-42bd-ac0f-44a213c30def)
+![image](https://github.com/user-attachments/assets/5b799c3b-334a-4d79-bcd2-0af2f33f5a62)
+![Screenshot (380)](https://github.com/user-attachments/assets/4a7cc827-88f8-4bba-9524-f7e89aea5ec6)
+
+
+
 
 # RESULTS AND DISCUSSION
 
@@ -124,6 +148,10 @@ Features of the Chatbot:
 
    
 The evaluation of different machine learning models on the 12th, 13th, and 14th generation Intel processors reveals that the Random Forest classifier consistently outperforms other models, achieving the highest accuracy rates of 82% for the 12th and 14th generations and an impressive 97% for the 13th generation. Other models such as XGBoost, Logistic Regression, SVM, CNN, and LSTM show varied performance, with XGBoost and Logistic Regression generally performing better than SVM, CNN, and LSTM. The significant drop in accuracy for most models on the 13th generation, except for Random Forest, indicates potential variability in the dataset or model-specific performance issues. The chatbot leveraging this data provides users with comprehensive insights, ranging from detailed processor descriptions to sentiment analysis based on user reviews. These findings suggest that the Random Forest model is the most reliable for predicting user sentiment and performance trends across different Intel processor generations.
+
+# SUMMARY
+This sentiment analysis project involved scraping Amazon product reviews, preprocessing the text data, and training an LSTM model to classify sentiments as Positive, Neutral, or Negative. The main findings indicate that the model accurately identifies sentiment trends, revealing valuable insights into customer opinions and product performance. These implications suggest potential enhancements in customer feedback analysis, helping businesses improve products and services based on user sentiment. 
+
 
 
 
