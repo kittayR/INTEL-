@@ -97,6 +97,7 @@ Features of the Chatbot:
 ![image](https://github.com/user-attachments/assets/20ed72f8-aa1c-459f-8b74-8d3b7749aba7)
 
 RESULTS AND DISCUSSION
+
 12th GENERATION :
 1.	RANDOM FOREST : 82%
 2.	XG BOOST : 61%
@@ -104,13 +105,15 @@ RESULTS AND DISCUSSION
 4.	SVM : 54 %
 5.	CNN : 48%
 6.	LSTM : 55%
-13th GENERATION :    
+   
+13th GENERATION :   
 1.	RANDOM FOREST : 97%
 2.	XG BOOST : 46%
 3.	LOGISTIC REGRESSION : 50%
 4.	SVM : 54%
 5.	CNN : 45%
 6.	LSTM : 50%
+   
 14th GENERATION :
 1.	RANDOM FOREST : 82%
 2.	XG BOOST : 61%
