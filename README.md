@@ -154,7 +154,11 @@ Features of the Chatbot:
 4.	Sentiment Analysis: The chatbot uses sentiment analysis to convey general sentiment trends from user reviews, helping users understand the overall performance of each processor generation.
 5.	Recommendations: Based on user queries and data trends, the chatbot can suggest the recommendations to improve the performance of the processor.
 
+# ARCHITECTURE DIAGRAM
 ![image](https://github.com/user-attachments/assets/20ed72f8-aa1c-459f-8b74-8d3b7749aba7)
+
+# CHATBOT - OUTPUTS 
+
 ![image](https://github.com/user-attachments/assets/6a3266bb-4c6d-42bd-ac0f-44a213c30def)
 ![image](https://github.com/user-attachments/assets/5b799c3b-334a-4d79-bcd2-0af2f33f5a62)
 ![Screenshot (380)](https://github.com/user-attachments/assets/4a7cc827-88f8-4bba-9524-f7e89aea5ec6)
