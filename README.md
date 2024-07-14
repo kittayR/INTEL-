@@ -11,8 +11,11 @@ The project aims to analyze customer sentiment towards :
 12th generation ( mobile / desktop processor )
 13th generation ( mobile / desktop processor )
 14th generation ( mobile / desktop processor )
+
 The user end reviews were taken from the AMAZON WEBSITE (https://www.amazon.in) around the time frames of 2022 to 2024.
+
 The tech reviews were taken from 3 websites :
+
 PC MAG : https://www.pcmag.com/categories/processors/brands/intel
 AnandTech : https://www.anandtech.com/show/18740/the-intel-core-i3-13100f-review-finding-value-in-intels-cheapest-chip
 Trusted Reviews : https://www.trustedreviews.com/best/best-intel-processor-3517396
@@ -21,6 +24,7 @@ Trusted Reviews : https://www.trustedreviews.com/best/best-intel-processor-35173
 # DATA SOURCE 
 End user reviews : AMAZON (online platform)
 Websites like Amazon offer INTEL product reviews from customers which we used for sentiment analysis. 
+
 Tech reviews :  PC MAG , AnandTECH , TRUSTED REVIEWS 
 The above websites offered us technical reviews of INTEL products which we used for sentimental analysis
 
@@ -32,11 +36,17 @@ Data was collected from Amazon product reviews using web scraping techniques. Th
 The dataset is loaded and pre-processed to handle missing values and convert non-numeric values to numeric ones.
 Data Cleaning:
 •	Dropped unnecessary columns.
+
 •	Removed duplicate entries.
+
 •	Extracted numeric ratings from the 'rating' column.
+
 •	Filled missing values in the 'review' column with empty strings.
+
 •	Added a new column 'review_length' to store the length of each review.
+
 •	Tokenization: Splitting of review text into individual words or tokens.
+
 •	Stop Words Removal: Elimination of common words that do not contribute to sentiment analysis (e.g., "and," "the")
 
 # SENTIMENT ANALYSIS METHODOLOGY :
@@ -75,31 +85,45 @@ TOOLS AND LIBRARIES
 # MODEL TRAINING 
 # 1 LSTM :
 •	Imports library and data preparation
+
 •	Model Architecture - An LSTM model is defined with an embedding layer, LSTM layer, and dense layers
+
 •	Model Compilation - The model is compiled with an optimizer , a loss function and evaluation metrics
+
 •	TRAINING THE MODEL – 
 •	The model is trained on the prepared dataset using a specified number of epochs and batch size. The dataset is split into training and validation sets to monitor the model's performance during training.
+
 •	EVALUATION – 
 •	After training, the model's performance is evaluated on the validation set using accuracy, precision, recall, and F1 score
 
 # 2 RANDOM FOREST :
 •	Model Initialization – RandomForestClassifier
+
 •	DEFINING HYPERPARAMETER SPACE - 
+
 1.	n_estimators: Number of trees in the forest.
-2.	max_depth: Maximum depth of the tree.
-3.	min_samples_split: Minimum number of samples required to split an internal node.
-4.	min_samples_leaf: Minimum number of samples required to be at a leaf node. 
+   
+3.	max_depth: Maximum depth of the tree.
+   
+5.	min_samples_split: Minimum number of samples required to split an internal node.
+   
+7.	min_samples_leaf: Minimum number of samples required to be at a leaf node. 
 
 •	Randomized Search for Hyperparameter Tuning - RandomizedSearchCV object to perform the search over the hyperparameter space
+
 •	Fitting the Model
+
 •	Best Model Selection – random search
+
 •	Making Predictions and Evaluating Model Performance - printed the accuracy score.
 
 # 3 ROBERTA : 
 Model Initialization:
 •	The RoBERTa model (TFRobertaForSequenceClassification) and tokenizer (AutoTokenizer) are loaded from the pretrained model cardiffnlp/twitter-roberta-base-sentiment.
+
 Sentiment Analysis Setup:
 •	The (SentimentIntensityAnalyzer) from the NLTK library is also initialized to provide an additional sentiment scoring mechanism, ensuring robustness in the sentiment analysis approach
+
 Text Preprocessing:
 •	Text data is tokenized using the RoBERTa tokenizer to convert it into a format suitable for the model
 
