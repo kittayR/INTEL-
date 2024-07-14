@@ -15,12 +15,16 @@ The project aims to analyze customer sentiment towards :
 
 14th generation ( mobile / desktop processor )
 
-The user end reviews were taken from the AMAZON WEBSITE (https://www.amazon.in) around the time frames of 2022 to 2024.
+The user end reviews were taken from the 
+
+AMAZON WEBSITE (https://www.amazon.in) around the time frames of 2022 to 2024.
 
 The tech reviews were taken from 3 websites :
 
 PC MAG : https://www.pcmag.com/categories/processors/brands/intel
+
 AnandTech : https://www.anandtech.com/show/18740/the-intel-core-i3-13100f-review-finding-value-in-intels-cheapest-chip
+
 Trusted Reviews : https://www.trustedreviews.com/best/best-intel-processor-3517396
 
 
