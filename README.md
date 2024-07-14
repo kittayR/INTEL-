@@ -118,6 +118,8 @@ RESULTS AND DISCUSSION
 4.	SVM : 54%
 5.	CNN : 48%
 6.	LSTM : 48%
+
+   
 The evaluation of different machine learning models on the 12th, 13th, and 14th generation Intel processors reveals that the Random Forest classifier consistently outperforms other models, achieving the highest accuracy rates of 82% for the 12th and 14th generations and an impressive 97% for the 13th generation. Other models such as XGBoost, Logistic Regression, SVM, CNN, and LSTM show varied performance, with XGBoost and Logistic Regression generally performing better than SVM, CNN, and LSTM. The significant drop in accuracy for most models on the 13th generation, except for Random Forest, indicates potential variability in the dataset or model-specific performance issues. The chatbot leveraging this data provides users with comprehensive insights, ranging from detailed processor descriptions to sentiment analysis based on user reviews. These findings suggest that the Random Forest model is the most reliable for predicting user sentiment and performance trends across different Intel processor generations.
 
 
