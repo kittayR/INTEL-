@@ -8,8 +8,11 @@ Our project aims to address this issue by developing an automated sentiment anal
 
 # SCOPE OF THE PROJECT
 The project aims to analyze customer sentiment towards : 
+
 12th generation ( mobile / desktop processor )
+
 13th generation ( mobile / desktop processor )
+
 14th generation ( mobile / desktop processor )
 
 The user end reviews were taken from the AMAZON WEBSITE (https://www.amazon.in) around the time frames of 2022 to 2024.
