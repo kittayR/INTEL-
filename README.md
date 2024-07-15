@@ -146,6 +146,24 @@ Text Preprocessing:
 •	Text data is tokenized using the RoBERTa tokenizer to convert it into a format suitable for the model
 
 # 4 CHATBOT : 
+REQUIRMENTS :
+
+streamlit
+
+google-generativeai
+
+python-dotenv
+
+langchain
+
+PyPDF2
+
+faiss-cpu
+
+langchain_google_genai
+
+chromadb
+
 Using the Gemini API, we have created a chatbot that can respond to inquiries regarding Intel's 12th, 13th, and 14th generation processors. The chatbot has access to detailed data on a variety of topics, including user experiences, sentimental patterns from online reviews, pricing, and descriptions. This extensive dataset allows users to ask a variety of topics and get insightful answers from the chatbot.
 Features of the Chatbot:
 1.	Detailed Descriptions: The chatbot provides in-depth information about each Intel processor generation, highlighting their specifications and key features.
